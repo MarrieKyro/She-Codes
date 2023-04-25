@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Helvetica, Arial, sans-serif;
+        text-align: center;
+        line-height: 48px;
+      }
+      .emoji-weather {
+        font-size: 36px;
+      }
+      h1 {
+        color: #1a64d6;
+        font-size: 34px;
+      }
+      h2 {
+        font-weight: 400;
+        font-size: 34px;
+        line-height: 8px;
+      }
+      .subheading-second-degree {
+        font-weight: 600;
+      }
+      ul {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 400px;
+        font-size: 18px;
+        font-weight: 800;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+      }
+      .first-degree {
+        font-family: monospace;
+        font-weight: 200;
+        color: #4c4b47;
+      }
+      .second-degree {
+        font-family: monospace;
+        font-weight: 600;
+        transition: all 200ms ease-in-out;
+        color: #4c4b47;
+      }
+      li:hover {
+        background: #fffbef;
+      }
+      button {
+        color: #ffff;
+        background: #1a64d6;
+        font-size: 16px;
+        line-height: 22px;
+        display: block;
+        margin: 20px auto;
+        padding: 16px 24px;
+        border: 1px solid #1a64d6;
+        border-radius: 30px;
+        box-shadow: 2px 5px 5px rgba(37, 39, 89, 0.08);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        color: #1a64d6;
+        background: #ffff;
+        cursor: pointer;
+      }
+      .creator {
+        font-size: 18px;
+        font-family: monospace;
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="emoji-weather">🌤</div>
+    <h1>Currently 21° in Tokyo</h1>
+    <h2>
+      <span>13° /</span>
+      <span class="subheading-second-degree"> 23°</span>
+    </h2>
+    <ul>
+      <li>
+        🌧Tomorrow
+        <div class="first-degree">
+          10° /<span class="second-degree"> 22°</span>
+        </div>
+      </li>
+      <li>
+        ⛅️Saturday
+        <div class="first-degree">
+          15° /<span class="second-degree"> 17°</span>
+        </div>
+      </li>
+      <li>
+        ☀️Sunday
+        <div class="first-degree">
+          25° /<span class="second-degree"> 28°</span>
+        </div>
+      </li>
+    </ul>
+    <button>Change city</button>
+    <div class="creator">Coded by Marrie Kyro</div>
+  </body>
+</html>
